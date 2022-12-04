@@ -8,3 +8,4 @@ My solutions to the [Advent of Code](https://adventofcode.com/) challenges
 02. [I Was Told There Would Be No Math](https://github.com/Andreal2000/advent-of-code/blob/main/2015/02)
 03. [Perfectly Spherical Houses in a Vacuum](https://github.com/Andreal2000/advent-of-code/blob/main/2015/03)
 04. [The Ideal Stocking Stuffer](https://github.com/Andreal2000/advent-of-code/blob/main/2015/04)
+05. [Doesn't He Have Intern-Elves For This?](https://github.com/Andreal2000/advent-of-code/blob/main/2015/05)
