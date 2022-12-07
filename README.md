@@ -13,3 +13,4 @@ My solutions to the [Advent of Code](https://adventofcode.com/) challenges
 07. [Some Assembly Required](https://github.com/Andreal2000/advent-of-code/blob/main/2015/07)
 08. [Matchsticks](https://github.com/Andreal2000/advent-of-code/blob/main/2015/08)
 09. [All in a Single Night](https://github.com/Andreal2000/advent-of-code/blob/main/2015/09)
+10. [Elves Look, Elves Say](https://github.com/Andreal2000/advent-of-code/blob/main/2015/10)
