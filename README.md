@@ -16,3 +16,4 @@ My solutions to the [Advent of Code](https://adventofcode.com/) challenges
 10. [Elves Look, Elves Say](https://github.com/Andreal2000/advent-of-code/blob/main/2015/10)
 11. [Corporate Policy](https://github.com/Andreal2000/advent-of-code/blob/main/2015/11)
 12. [JSAbacusFramework.io](https://github.com/Andreal2000/advent-of-code/blob/main/2015/12)
+13. [Knights of the Dinner Table](https://github.com/Andreal2000/advent-of-code/blob/main/2015/13)
