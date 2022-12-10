@@ -15,3 +15,4 @@ My solutions to the [Advent of Code](https://adventofcode.com/) challenges
 09. [All in a Single Night](https://github.com/Andreal2000/advent-of-code/blob/main/2015/09)
 10. [Elves Look, Elves Say](https://github.com/Andreal2000/advent-of-code/blob/main/2015/10)
 11. [Corporate Policy](https://github.com/Andreal2000/advent-of-code/blob/main/2015/11)
+12. [JSAbacusFramework.io](https://github.com/Andreal2000/advent-of-code/blob/main/2015/12)
