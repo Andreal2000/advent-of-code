@@ -18,3 +18,4 @@ My solutions to the [Advent of Code](https://adventofcode.com/) challenges
 12. [JSAbacusFramework.io](https://github.com/Andreal2000/advent-of-code/blob/main/2015/12)
 13. [Knights of the Dinner Table](https://github.com/Andreal2000/advent-of-code/blob/main/2015/13)
 14. [Reindeer Olympics](https://github.com/Andreal2000/advent-of-code/blob/main/2015/14)
+15. [Science for Hungry People](https://github.com/Andreal2000/advent-of-code/blob/main/2015/15)
