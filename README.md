@@ -21,3 +21,4 @@ My solutions to the [Advent of Code](https://adventofcode.com/) challenges
 15. [Science for Hungry People](https://github.com/Andreal2000/advent-of-code/blob/main/2015/15)
 16. [Aunt Sue](https://github.com/Andreal2000/advent-of-code/blob/main/2015/16)
 17. [No Such Thing as Too Much](https://github.com/Andreal2000/advent-of-code/blob/main/2015/17)
+18. [Like a GIF For Your Yard](https://github.com/Andreal2000/advent-of-code/blob/main/2015/18)
