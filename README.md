@@ -23,3 +23,4 @@ My solutions to the [Advent of Code](https://adventofcode.com/) challenges
 17. [No Such Thing as Too Much](https://github.com/Andreal2000/advent-of-code/blob/main/2015/17)
 18. [Like a GIF For Your Yard](https://github.com/Andreal2000/advent-of-code/blob/main/2015/18)
 19. [Medicine for Rudolph](https://github.com/Andreal2000/advent-of-code/blob/main/2015/19)
+20. [Infinite Elves and Infinite Houses](https://github.com/Andreal2000/advent-of-code/blob/main/2015/20)
