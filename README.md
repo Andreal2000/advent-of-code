@@ -26,3 +26,4 @@ My solutions to the [Advent of Code](https://adventofcode.com/) challenges
 20. [Infinite Elves and Infinite Houses](https://github.com/Andreal2000/advent-of-code/blob/main/2015/20)
 21. [RPG Simulator 20XX](https://github.com/Andreal2000/advent-of-code/blob/main/2015/21)
 22. [Wizard Simulator 20XX](https://github.com/Andreal2000/advent-of-code/blob/main/2015/22)
+23. [Opening the Turing Lock](https://github.com/Andreal2000/advent-of-code/blob/main/2015/23)
