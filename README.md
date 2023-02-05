@@ -27,3 +27,4 @@ My solutions to the [Advent of Code](https://adventofcode.com/) challenges
 21. [RPG Simulator 20XX](https://github.com/Andreal2000/advent-of-code/blob/main/2015/21)
 22. [Wizard Simulator 20XX](https://github.com/Andreal2000/advent-of-code/blob/main/2015/22)
 23. [Opening the Turing Lock](https://github.com/Andreal2000/advent-of-code/blob/main/2015/23)
+24. [It Hangs in the Balance](https://github.com/Andreal2000/advent-of-code/blob/main/2015/24)
