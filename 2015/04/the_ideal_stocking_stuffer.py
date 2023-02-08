@@ -2,22 +2,21 @@ import os
 import hashlib
 
 
-def part_one(input):
+def hash(input, length):
     i = 1
     while True:
         md5 = hashlib.md5((input + str(i)).encode()).hexdigest()
-        if md5.startswith("0"*5):
+        if md5.startswith("0" * length):
             return i
         i += 1
+
+
+def part_one(input):
+    return hash(input, 5)
 
 
 def part_two(input):
-    i = 1
-    while True:
-        md5 = hashlib.md5((input + str(i)).encode()).hexdigest()
-        if md5.startswith("0"*6):
-            return i
-        i += 1
+    return hash(input, 6)
 
 
 if __name__ == "__main__":

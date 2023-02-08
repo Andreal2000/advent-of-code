@@ -2,7 +2,7 @@ import os
 
 
 def part_one(input):
-    input = sorted(map(int, input.strip().split("\n")), reverse=True)
+    input = sorted(map(int, input.strip().splitlines()), reverse=True)
     liters = 150
 
     def filler(containers, quantity):
@@ -24,7 +24,7 @@ def part_one(input):
 
 
 def part_two(input):
-    input = sorted(map(int, input.strip().split("\n")), reverse=True)
+    input = sorted(map(int, input.strip().splitlines()), reverse=True)
     liters = 150
 
     def filler(containers, quantity, out=[]):

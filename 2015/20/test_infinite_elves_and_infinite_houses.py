@@ -1,7 +1,6 @@
 import os
 from infinite_elves_and_infinite_houses import part_one, part_two
 
-
 input = open(os.path.join(os.path.dirname(__file__), "input.txt")).read()
 
 

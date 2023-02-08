@@ -1,30 +1,32 @@
 import os
 
 
+def find_house(input, houses):
+    for i in range(len(houses)):
+        if houses[i] >= input:
+            return i
+
+
 def part_one(input):
     input = int(input)
-    house = [0] * (input//10+1)
+    houses = [0] * (input//10+1)
 
     for i in range(1, input//10+1):
         for j in range(i, input//10+1, i):
-            house[j] += i*10
+            houses[j] += i*10
 
-    for i in range(len(house)):
-        if house[i] >= input:
-            return i
+    return find_house(input, houses)
 
 
 def part_two(input):
     input = int(input)
-    house = [0] * (input//11+1)
+    houses = [0] * (input//11+1)
 
     for i in range(1, input//10+1):
-        for j in range(i, i*50+1 if i*50+1 < len(house) else len(house), i):
-            house[j] += i*11
+        for j in range(i, i*50+1 if i*50+1 < len(houses) else len(houses), i):
+            houses[j] += i*11
 
-    for i in range(len(house)):
-        if house[i] >= input:
-            return i
+    return find_house(input, houses)
 
 
 if __name__ == "__main__":

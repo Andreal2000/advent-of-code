@@ -1,7 +1,6 @@
 import os
 from perfectly_spherical_houses_in_a_vacuum import part_one, part_two
 
-
 input = open(os.path.join(os.path.dirname(__file__), "input.txt")).read()
 
 

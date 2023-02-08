@@ -2,7 +2,7 @@ import os
 
 
 def part_one(input):
-    input = input.strip().split("\n")
+    input = input.strip().splitlines()
 
     def decode_string(string): return bytes(
         string, "utf-8").decode("unicode_escape")
@@ -11,7 +11,7 @@ def part_one(input):
 
 
 def part_two(input):
-    input = input.strip().split("\n")
+    input = input.strip().splitlines()
 
     def encode_string(string):
         return string.replace("\\", "\\\\").replace('"', '\\"')

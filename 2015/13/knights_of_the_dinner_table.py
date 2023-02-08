@@ -3,7 +3,7 @@ from itertools import permutations
 
 
 def part_one(input):
-    input = [y.split() for y in input.replace(".", "").strip().split("\n")]
+    input = [y.split() for y in input.replace(".", "").strip().splitlines()]
     persons = sorted(list({i[x] for i in input for x in [0, 10]}))
     matrix = [[0]*len(persons) for _ in range(len(persons))]
 
@@ -13,17 +13,19 @@ def part_one(input):
         v = matrix[x][y] + int(i[3]) * (-1 if i[2] == "lose" else 1)
         matrix[x][y] = matrix[y][x] = v
 
-    return max([sum([matrix[p[i]][p[(i+1) % len(p)]]for i in range(len(p))])
+    return max([sum([matrix[p[i]][p[(i+1) % len(p)]] for i in range(len(p))])
                 for p in permutations(range(len(persons))) if p < p[::-1]])
 
 
 def part_two(input):
-    text = [y.split() for y in input.replace(".", "").strip().split("\n")]
+    text = [y.split() for y in input.replace(".", "").strip().splitlines()]
     persons = sorted(list({i[x] for i in text for x in [0, 10]}))
     template = "{} would gain 0 happiness units by sitting next to {}.\n"
-    args = list(zip(["Andrea"] * len(persons), persons)) + \
-        list(zip(persons, ["Andrea"] * len(persons)))
+    args = (list(zip(["Andrea"] * len(persons), persons)) +
+            list(zip(persons, ["Andrea"] * len(persons))))
+
     me = (template*(len(persons))*2).format(*[x for y in args for x in y])
+
     return part_one(input + me)
 
 

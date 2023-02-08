@@ -3,7 +3,7 @@ import re
 
 
 def part_one(input):
-    input = input.strip().split("\n")
+    input = input.strip().splitlines()
     medicine = input[-1]
     input = [i.split()[::2] for i in input[:-2]]
     molecules = set()
@@ -16,7 +16,7 @@ def part_one(input):
 
 
 def part_two(input):
-    input = input.strip().split("\n")[-1]
+    input = input.strip().splitlines()[-1]
     elements = len(re.findall("[A-Z]", input))
     rn_ar = len(re.findall("Rn|Ar", input))
     y = len(re.findall("Y", input))

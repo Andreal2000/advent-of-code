@@ -1,23 +1,27 @@
 import os
 
+directions = {"^": (0, 1), "v": (0, -1), ">": (1, 0), "<": (-1, 0)}
+
+
+def add(a, b): return tuple(map(sum, zip(a, b)))
+
 
 def part_one(input):
-    def add(a, b): return (a[0]+b[0], a[1]+b[1])
-    directions = {"^": (0, 1), "v": (0, -1), ">": (1, 0), "<": (-1, 0)}
     position = (0, 0)
     houses = [(0, 0)]
+
     for i in input:
         position = add(position, directions[i])
         houses.append(position)
+
     return len(set(houses))
 
 
 def part_two(input):
-    def add(a, b): return (a[0]+b[0], a[1]+b[1])
-    directions = {"^": (0, 1), "v": (0, -1), ">": (1, 0), "<": (-1, 0)}
     santa = (0, 0)
     robo = (0, 0)
     houses = [(0, 0)]
+
     for i in range(len(input)):
         if i % 2 == 0:
             santa = add(santa, directions[input[i]])
@@ -25,6 +29,7 @@ def part_two(input):
         else:
             robo = add(robo, directions[input[i]])
             houses.append(robo)
+
     return len(set(houses))
 
 

@@ -1,9 +1,8 @@
 import os
-from functools import reduce
 
 
 def part_one(input):
-    return reduce(lambda x, y: x + (1 if y == "(" else -1), input, 0)
+    return sum(map(lambda x: (1 if x == "(" else -1), input))
 
 
 def part_two(input):

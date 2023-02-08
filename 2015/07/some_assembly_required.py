@@ -2,7 +2,7 @@ import os
 
 
 def part_one(input):
-    input = input.strip().split("\n")
+    input = input.strip().splitlines()
 
     def AND(a, b): return find_signal(a) & find_signal(b)
     def OR(a, b): return find_signal(a) | find_signal(b)
@@ -25,8 +25,8 @@ def part_one(input):
         while not input[i].endswith(f" -> {signal}"):
             i += 1
 
-        line = input[i].split(" ")
-        out = None
+        line = input[i].split()
+        out = 0
 
         if len(line) == 3:
             if not line[0].isdecimal():
@@ -46,7 +46,7 @@ def part_one(input):
 
 
 def part_two(input):
-    input_two = input.strip().split("\n")
+    input_two = input.strip().splitlines()
     i = 0
 
     while not input_two[i].endswith(" -> b"):

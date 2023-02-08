@@ -1,17 +1,18 @@
 import os
 
 
-def part_one(input):
-    def increment(word):
-        if word == "z"*8:
-            return "a"*8
-        elif word[-1] == "z":
-            return increment(word[:-1]) + "a"
-        else:
-            return (word[:-1] +
-                    chr(ord(word[-1]) +
-                    (1 if ord(word[-1]) not in [104, 107, 110] else 2)))
+def increment(word):
+    if word == "z"*8:
+        return "a"*8
+    elif word[-1] == "z":
+        return increment(word[:-1]) + "a"
+    else:
+        return (word[:-1] +
+                chr(ord(word[-1]) +
+                (1 if ord(word[-1]) not in [104, 107, 110] else 2)))
 
+
+def part_one(input):
     def requirement_1(word):
         for i in range(len(word) - 2):
             if ord(word[i]) == ord(word[i+1])-1 == ord(word[i+2])-2:
@@ -43,16 +44,6 @@ def part_one(input):
 
 
 def part_two(input):
-    def increment(word):
-        if word == "z"*8:
-            return "a"*8
-        elif word[-1] == "z":
-            return increment(word[:-1]) + "a"
-        else:
-            return (word[:-1] +
-                    chr(ord(word[-1]) +
-                    (1 if ord(word[-1]) not in [104, 107, 110] else 2)))
-
     return part_one(increment(part_one(input)))
 
 

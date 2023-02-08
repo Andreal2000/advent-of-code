@@ -2,8 +2,7 @@ import os
 
 
 def part_one(input):
-    input = [int(input.replace(",", "").strip()[:-1].split()[x])
-             for x in [-3, -1]]
+    input = [int(input.strip().split()[x][:-1]) for x in [-3, -1]]
 
     previous = 20151125
 

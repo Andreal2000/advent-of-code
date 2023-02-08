@@ -1,19 +1,20 @@
 import os
 
+target = {"children": 3,
+          "cats": 7,
+          "samoyeds": 2,
+          "pomeranians": 3,
+          "akitas": 0,
+          "vizslas": 0,
+          "goldfish": 5,
+          "trees": 3,
+          "cars": 2,
+          "perfumes": 1}
+
 
 def part_one(input):
-    target = {"children": 3,
-              "cats": 7,
-              "samoyeds": 2,
-              "pomeranians": 3,
-              "akitas": 0,
-              "vizslas": 0,
-              "goldfish": 5,
-              "trees": 3,
-              "cars": 2,
-              "perfumes": 1}
+    input = input.replace(":", "").replace(",", "").splitlines()
 
-    input = input.replace(":", "").replace(",", "").split("\n")
     for i in input:
         i = i.split()
         if (all([target[i[x*2]] == int(i[x*2+1]) for x in range(1, 4)])):
@@ -21,18 +22,8 @@ def part_one(input):
 
 
 def part_two(input):
-    target = {"children": 3,
-              "cats": 7,
-              "samoyeds": 2,
-              "pomeranians": 3,
-              "akitas": 0,
-              "vizslas": 0,
-              "goldfish": 5,
-              "trees": 3,
-              "cars": 2,
-              "perfumes": 1}
+    input = input.replace(":", "").replace(",", "").splitlines()
 
-    input = input.replace(":", "").replace(",", "").split("\n")
     for i in input:
         i = i.split()
         out = [False]*3

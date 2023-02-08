@@ -15,9 +15,9 @@ def part_two(input):
         for i in j:
             if type(i) == int:
                 out += i
-            if type(i) == list:
+            elif type(i) == list:
                 out += count(i)
-            if type(i) == dict:
+            elif type(i) == dict:
                 out += 0 if "red" in i.values() else count(i.values())
         return out
 

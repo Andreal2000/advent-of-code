@@ -1,7 +1,6 @@
 import os
 from science_for_hungry_people import part_one, part_two
 
-
 input = open(os.path.join(os.path.dirname(__file__), "input.txt")).read()
 
 

@@ -2,36 +2,37 @@ import os
 
 
 def part_one(input):
-    input = [y.split() for y in input.strip().split("\n")]
+    input = [y.split() for y in input.strip().splitlines()]
 
     def distance(deer):
         seconds = 2503
-        v = int(deer[3])
-        t = int(deer[6])
-        r = int(deer[-2])
-        start = ((seconds // (t+r)))
-        start_distance = start * (v*t)
-        end = seconds - (start * (t+r))
-        end_distance = min(t, end) * v
+        speed = int(deer[3])
+        time = int(deer[6])
+        rest = int(deer[-2])
+        start = seconds // (time+rest)
+        start_distance = start * (speed*time)
+        end = seconds - (start * (time+rest))
+        end_distance = min(time, end) * speed
         return start_distance + end_distance
 
     return max(map(distance, input))
 
 
 def part_two(input):
-    input = [y.split() for y in input.strip().split("\n")]
+    input = [y.split() for y in input.strip().splitlines()]
     seconds = 2503
     matrix = []
     scores = [0 for _ in range(len(input))]
+
     for deer in input:
-        v = int(deer[3])
-        t = int(deer[6])
-        r = int(deer[-2])
+        speed = int(deer[3])
+        time = int(deer[6])
+        rest = int(deer[-2])
         position = []
         while len(position) <= seconds:
-            for _ in range(t):
-                position += [(position[-1] if len(position) > 0 else 0) + v]
-            position += [position[-1]]*r
+            for _ in range(time):
+                position += [(position[-1] if len(position) > 0 else 0)+speed]
+            position += [position[-1]]*rest
         matrix += [position]
 
     matrix = matrix[:seconds]

@@ -2,16 +2,17 @@ import os
 from itertools import product
 
 
+weapons = list(zip([8, 10, 25, 40, 74], range(4, 9), [0]*5))
+armors = list(zip([0, 13, 31, 53, 75, 102], [0]*6, range(6)))
+rings = list(zip([0, 25, 50, 100, 20, 40, 80],
+                 [0, 1, 2, 3, 0, 0, 0],
+                 [0, 0, 0, 0, 1, 2, 3]))
+
+items = list(product(weapons, armors, rings, rings))
+
+
 def part_one(input):
-    weapons = list(zip([8, 10, 25, 40, 74], range(4, 9), [0]*5))
-    armors = list(zip([0, 13, 31, 53, 75, 102], [0]*6, range(6)))
-    rings = list(zip([0, 25, 50, 100, 20, 40, 80],
-                     [0, 1, 2, 3, 0, 0, 0],
-                     [0, 0, 0, 0, 1, 2, 3]))
-
-    items = list(product(weapons, armors, rings, rings))
-
-    boss = [int(i.split()[-1]) for i in input.strip().split("\n")]
+    boss = [int(i.split()[-1]) for i in input.strip().splitlines()]
     m = 74+102+100+80
 
     for i in [[sum(z) for z in zip(*i)]
@@ -26,15 +27,7 @@ def part_one(input):
 
 
 def part_two(input):
-    weapons = list(zip([8, 10, 25, 40, 74], range(4, 9), [0]*5))
-    armors = list(zip([0, 13, 31, 53, 75, 102], [0]*6, range(6)))
-    rings = list(zip([0, 25, 50, 100, 20, 40, 80],
-                     [0, 1, 2, 3, 0, 0, 0],
-                     [0, 0, 0, 0, 1, 2, 3]))
-
-    items = list(product(weapons, armors, rings, rings))
-
-    boss = [int(i.split()[-1]) for i in input.strip().split("\n")]
+    boss = [int(i.split()[-1]) for i in input.strip().splitlines()]
     m = 0
 
     for i in [[sum(z) for z in zip(*i)]

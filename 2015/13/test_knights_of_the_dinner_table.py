@@ -1,7 +1,6 @@
 import os
 from knights_of_the_dinner_table import part_one, part_two
 
-
 input = open(os.path.join(os.path.dirname(__file__), "input.txt")).read()
 
 

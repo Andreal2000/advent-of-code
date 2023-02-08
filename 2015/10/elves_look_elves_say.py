@@ -1,8 +1,8 @@
 import os
 
 
-def part_one(input):
-    for _ in range(40):
+def look_and_say(input, times):
+    for _ in range(times):
         n = 1
         out = ""
         for i in range(1, len(input)):
@@ -12,21 +12,16 @@ def part_one(input):
             else:
                 n += 1
         input = out + str(n) + input[-1]
+
     return len(input)
+
+
+def part_one(input):
+    return look_and_say(input, 40)
 
 
 def part_two(input):
-    for _ in range(50):
-        n = 1
-        out = ""
-        for i in range(1, len(input)):
-            if input[i-1] != input[i]:
-                out += str(n) + input[i-1]
-                n = 1
-            else:
-                n += 1
-        input = out + str(n) + input[-1]
-    return len(input)
+    return look_and_say(input, 50)
 
 
 if __name__ == "__main__":

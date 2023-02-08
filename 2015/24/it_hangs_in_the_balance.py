@@ -4,38 +4,26 @@ from itertools import combinations
 from operator import mul
 
 
-def part_one(input):
-    input = list(map(int, input.strip().split("\n")))
-    groups = 3
+def splitter(input, groups):
+    input = list(map(int, input.strip().splitlines()))
     weight = sum(input)/groups
 
-    def splitter(packs, groups):
+    def splitter_helper(packs, groups):
         if groups == 1:
             return [packs]
         for i in range(len(packs)):
             for j in [p for p in combinations(packs, i) if sum(p) == weight]:
-                return [list(j)] + splitter(list(set(packs)-set(j)), groups-1)
+                return [list(j)] + splitter_helper(set(packs)-set(j), groups-1)
 
-    split = splitter(input, groups)
+    return splitter_helper(input, groups)
 
-    return reduce(mul, split[0])
+
+def part_one(input):
+    return reduce(mul, splitter(input, 3)[0])
 
 
 def part_two(input):
-    input = list(map(int, input.strip().split("\n")))
-    groups = 4
-    weight = sum(input)/groups
-
-    def splitter(packs, groups):
-        if groups == 1:
-            return [packs]
-        for i in range(len(packs)):
-            for j in [p for p in combinations(packs, i) if sum(p) == weight]:
-                return [list(j)] + splitter(list(set(packs)-set(j)), groups-1)
-
-    split = splitter(input, groups)
-
-    return reduce(mul, split[0])
+    return reduce(mul, splitter(input, 4)[0])
 
 
 if __name__ == "__main__":

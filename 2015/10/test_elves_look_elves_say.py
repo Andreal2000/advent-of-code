@@ -1,7 +1,6 @@
 import os
 from elves_look_elves_say import part_one, part_two
 
-
 input = open(os.path.join(os.path.dirname(__file__), "input.txt")).read()
 
 
