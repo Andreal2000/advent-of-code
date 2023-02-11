@@ -38,3 +38,4 @@ My solutions to the [Advent of Code](https://adventofcode.com/) challenges
 ## 2016
 
 01. [No Time for a Taxicab](https://github.com/Andreal2000/advent-of-code/blob/main/2016/01)
+02. [Bathroom Security](https://github.com/Andreal2000/advent-of-code/blob/main/2016/02)
