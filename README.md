@@ -2,6 +2,11 @@
 
 My solutions to the [Advent of Code](https://adventofcode.com/) challenges
 
+## Years
+
+* [2015](#2015)
+* [2016](#2016)
+
 ## 2015
 
 01. [Not Quite Lisp](https://github.com/Andreal2000/advent-of-code/blob/main/2015/01)
@@ -29,3 +34,7 @@ My solutions to the [Advent of Code](https://adventofcode.com/) challenges
 23. [Opening the Turing Lock](https://github.com/Andreal2000/advent-of-code/blob/main/2015/23)
 24. [It Hangs in the Balance](https://github.com/Andreal2000/advent-of-code/blob/main/2015/24)
 25. [Let It Snow](https://github.com/Andreal2000/advent-of-code/blob/main/2015/25)
+
+## 2016
+
+01. [No Time for a Taxicab](https://github.com/Andreal2000/advent-of-code/blob/main/2016/01)
