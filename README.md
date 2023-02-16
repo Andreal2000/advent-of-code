@@ -41,3 +41,4 @@ My solutions to the [Advent of Code](https://adventofcode.com/) challenges
 02. [Bathroom Security](https://github.com/Andreal2000/advent-of-code/blob/main/2016/02)
 03. [Squares With Three Sides](https://github.com/Andreal2000/advent-of-code/blob/main/2016/03)
 04. [Security Through Obscurity](https://github.com/Andreal2000/advent-of-code/blob/main/2016/04)
+05. [How About a Nice Game of Chess?](https://github.com/Andreal2000/advent-of-code/blob/main/2016/05)
