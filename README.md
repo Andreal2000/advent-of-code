@@ -42,3 +42,4 @@ My solutions to the [Advent of Code](https://adventofcode.com/) challenges
 03. [Squares With Three Sides](https://github.com/Andreal2000/advent-of-code/blob/main/2016/03)
 04. [Security Through Obscurity](https://github.com/Andreal2000/advent-of-code/blob/main/2016/04)
 05. [How About a Nice Game of Chess?](https://github.com/Andreal2000/advent-of-code/blob/main/2016/05)
+06. [Signals and Noise](https://github.com/Andreal2000/advent-of-code/blob/main/2016/06)
