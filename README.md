@@ -47,3 +47,4 @@ My solutions to the [Advent of Code](https://adventofcode.com/) challenges
 08. [Two-Factor Authentication](https://github.com/Andreal2000/advent-of-code/blob/main/2016/08)
 09. [Explosives in Cyberspace](https://github.com/Andreal2000/advent-of-code/blob/main/2016/09)
 10. [Balance Bots](https://github.com/Andreal2000/advent-of-code/blob/main/2016/10)
+11. [Radioisotope Thermoelectric Generators](https://github.com/Andreal2000/advent-of-code/blob/main/2016/11)
