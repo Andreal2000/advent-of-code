@@ -50,3 +50,4 @@ My solutions to the [Advent of Code](https://adventofcode.com/) challenges
 11. [Radioisotope Thermoelectric Generators](https://github.com/Andreal2000/advent-of-code/blob/main/2016/11)
 12. [Leonardo's Monorail](https://github.com/Andreal2000/advent-of-code/blob/main/2016/12)
 13. [A Maze of Twisty Little Cubicles](https://github.com/Andreal2000/advent-of-code/blob/main/2016/13)
+14. [One-Time Pad](https://github.com/Andreal2000/advent-of-code/blob/main/2016/14)
