@@ -54,3 +54,4 @@ My solutions to the [Advent of Code](https://adventofcode.com/) challenges
 15. [Timing is Everything](https://github.com/Andreal2000/advent-of-code/blob/main/2016/15)
 16. [Dragon Checksum](https://github.com/Andreal2000/advent-of-code/blob/main/2016/16)
 17. [Two Steps Forward](https://github.com/Andreal2000/advent-of-code/blob/main/2016/17)
+18. [Like a Rogue](https://github.com/Andreal2000/advent-of-code/blob/main/2016/18)
