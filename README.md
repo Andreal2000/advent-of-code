@@ -57,3 +57,4 @@ My solutions to the [Advent of Code](https://adventofcode.com/) challenges
 18. [Like a Rogue](https://github.com/Andreal2000/advent-of-code/blob/main/2016/18)
 19. [An Elephant Named Joseph](https://github.com/Andreal2000/advent-of-code/blob/main/2016/19)
 20. [Firewall Rules](https://github.com/Andreal2000/advent-of-code/blob/main/2016/20)
+21. [Scrambled Letters and Hash](https://github.com/Andreal2000/advent-of-code/blob/main/2016/21)
