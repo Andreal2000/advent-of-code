@@ -58,3 +58,4 @@ My solutions to the [Advent of Code](https://adventofcode.com/) challenges
 19. [An Elephant Named Joseph](https://github.com/Andreal2000/advent-of-code/blob/main/2016/19)
 20. [Firewall Rules](https://github.com/Andreal2000/advent-of-code/blob/main/2016/20)
 21. [Scrambled Letters and Hash](https://github.com/Andreal2000/advent-of-code/blob/main/2016/21)
+22. [Grid Computing](https://github.com/Andreal2000/advent-of-code/blob/main/2016/22)
