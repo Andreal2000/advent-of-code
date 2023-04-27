@@ -61,3 +61,4 @@ My solutions to the [Advent of Code](https://adventofcode.com/) challenges
 22. [Grid Computing](https://github.com/Andreal2000/advent-of-code/blob/main/2016/22)
 23. [Safe Cracking](https://github.com/Andreal2000/advent-of-code/blob/main/2016/23)
 24. [Air Duct Spelunking](https://github.com/Andreal2000/advent-of-code/blob/main/2016/24)
+25. [Clock Signal](https://github.com/Andreal2000/advent-of-code/blob/main/2016/25)
