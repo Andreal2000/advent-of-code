@@ -67,3 +67,4 @@ My solutions to the [Advent of Code](https://adventofcode.com/) challenges
 ## 2017
 
 01. [Inverse Captcha](https://github.com/Andreal2000/advent-of-code/blob/main/2017/01)
+02. [Corruption Checksum](https://github.com/Andreal2000/advent-of-code/blob/main/2017/02)
