@@ -71,3 +71,4 @@ My solutions to the [Advent of Code](https://adventofcode.com/) challenges
 03. [Spiral Memory](https://github.com/Andreal2000/advent-of-code/blob/main/2017/03)
 04. [High-Entropy Passphrases](https://github.com/Andreal2000/advent-of-code/blob/main/2017/04)
 05. [A Maze of Twisty Trampolines, All Alike](https://github.com/Andreal2000/advent-of-code/blob/main/2017/05)
+06. [Memory Reallocation](https://github.com/Andreal2000/advent-of-code/blob/main/2017/06)
