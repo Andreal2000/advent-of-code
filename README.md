@@ -74,3 +74,4 @@ My solutions to the [Advent of Code](https://adventofcode.com/) challenges
 06. [Memory Reallocation](https://github.com/Andreal2000/advent-of-code/blob/main/2017/06)
 07. [Recursive Circus](https://github.com/Andreal2000/advent-of-code/blob/main/2017/07)
 08. [I Heard You Like Registers](https://github.com/Andreal2000/advent-of-code/blob/main/2017/08)
+09. [Stream Processing](https://github.com/Andreal2000/advent-of-code/blob/main/2017/09)
