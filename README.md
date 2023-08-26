@@ -76,3 +76,4 @@ My solutions to the [Advent of Code](https://adventofcode.com/) challenges
 08. [I Heard You Like Registers](https://github.com/Andreal2000/advent-of-code/blob/main/2017/08)
 09. [Stream Processing](https://github.com/Andreal2000/advent-of-code/blob/main/2017/09)
 10. [Knot Hash](https://github.com/Andreal2000/advent-of-code/blob/main/2017/10)
+11. [Hex Ed](https://github.com/Andreal2000/advent-of-code/blob/main/2017/11)
