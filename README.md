@@ -78,3 +78,4 @@ My solutions to the [Advent of Code](https://adventofcode.com/) challenges
 10. [Knot Hash](https://github.com/Andreal2000/advent-of-code/blob/main/2017/10)
 11. [Hex Ed](https://github.com/Andreal2000/advent-of-code/blob/main/2017/11)
 12. [Digital Plumber](https://github.com/Andreal2000/advent-of-code/blob/main/2017/12)
+13. [Packet Scanners](https://github.com/Andreal2000/advent-of-code/blob/main/2017/13)
