@@ -80,3 +80,4 @@ My solutions to the [Advent of Code](https://adventofcode.com/) challenges
 12. [Digital Plumber](https://github.com/Andreal2000/advent-of-code/blob/main/2017/12)
 13. [Packet Scanners](https://github.com/Andreal2000/advent-of-code/blob/main/2017/13)
 14. [Disk Defragmentation](https://github.com/Andreal2000/advent-of-code/blob/main/2017/14)
+15. [Dueling Generators](https://github.com/Andreal2000/advent-of-code/blob/main/2017/15)
