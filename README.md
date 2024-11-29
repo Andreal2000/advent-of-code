@@ -83,3 +83,4 @@ My solutions to the [Advent of Code](https://adventofcode.com/) challenges
 15. [Dueling Generators](https://github.com/Andreal2000/advent-of-code/blob/main/2017/15)
 16. [Permutation Promenade](https://github.com/Andreal2000/advent-of-code/blob/main/2017/16)
 17. [Spinlock](https://github.com/Andreal2000/advent-of-code/blob/main/2017/17)
+18. [Duet](https://github.com/Andreal2000/advent-of-code/blob/main/2017/18)
