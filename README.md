@@ -87,3 +87,4 @@ My solutions to the [Advent of Code](https://adventofcode.com/) challenges
 19. [A Series of Tubes](https://github.com/Andreal2000/advent-of-code/blob/main/2017/19)
 20. [Particle Swarm](https://github.com/Andreal2000/advent-of-code/blob/main/2017/20)
 21. [Fractal Art](https://github.com/Andreal2000/advent-of-code/blob/main/2017/21)
+22. [Sporifica Virus](https://github.com/Andreal2000/advent-of-code/blob/main/2017/22)
