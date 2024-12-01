@@ -90,3 +90,4 @@ My solutions to the [Advent of Code](https://adventofcode.com/) challenges
 22. [Sporifica Virus](https://github.com/Andreal2000/advent-of-code/blob/main/2017/22)
 23. [Coprocessor Conflagration](https://github.com/Andreal2000/advent-of-code/blob/main/2017/23)
 24. [Electromagnetic Moat](https://github.com/Andreal2000/advent-of-code/blob/main/2017/24)
+25. [The Halting Problem](https://github.com/Andreal2000/advent-of-code/blob/main/2017/25)
